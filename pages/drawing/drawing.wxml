@@ -1,0 +1,26 @@
+<!--pages/drawing/drawing.wxml-->
+<view class="container">
+    <view class="title">绘制标语</view>
+    <view class="box">
+        <view>
+            <canvas canvas-id="myCanvas" disable-scroll="true" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></canvas>
+        </view>
+        <view>
+            <text style="text-decoration-color: darkgoldenrod;">画笔</text>
+            <slider data-param="param" value="{{param}}" max="50" min="1" block-color="purple" activeColor="pink" backgroundColor="green" show-value="true" bindchange="paramChange">画笔粗细</slider>
+            <text style="text-decoration-color: dodgerblue;">调色盘</text>
+            <slider data-color="r" value="{{r}}" max="255" min="0" block-color="red" activeColor="pink" backgroundColor="green" show-value="true" bindchange="colorChange">red</slider>
+            <slider data-color="g" value="{{g}}" max="255" min="0" block-color="green" activeColor="pink" backgroundColor="green" show-value="true" bindchange="colorChange">green</slider>
+            <slider data-color="b" value="{{b}}" max="255" min="0" block-color="blue" activeColor="pink" backgroundColor="green" show-value="true" bindchange="colorChange">blue</slider>
+            <slider data-color="a" value="{{a}}" max="1" min="0" block-color="silver" activeColor="pink" backgroundColor="green" show-value="true" bindchange="colorChange" step="0.01">Alpha</slider>
+
+            <view class="colorArea" style="background-color: rgba({{r}}, {{g}}, {{b}}, {{a}});"></view>
+
+            <button bindtap="clear" class="btn-{{isClear}} button_add">擦除</button>
+            <button bindtap="clearAll" class="button_add">清屏</button>
+        </view>
+        <view>
+        <button bindtap="saveImg" class="button_add">保存</button>
+        </view>
+    </view>
+</view>

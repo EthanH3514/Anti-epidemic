@@ -1,0 +1,11 @@
+/* pages/help/help.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+text{
+    text-align: left;
+}
+.text_decoration{
+    color: green;
+}

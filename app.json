@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/Choose_hero/Choose_hero",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/virus/virus",
+    "pages/index_virus/index_virus",
+    "pages/help/help",
+    "pages/custom_/custom",
+    "pages/drawing/drawing",
+    "pages/showing/showing",
+    "pages/frontsee/frontsee"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "核酸筛查",
+        "iconPath": "images/hesuan.jpg",
+        "selectedIconPath": "images/hesuan.jpg"
+      },
+      {
+        "pagePath":"pages/drawing/drawing",
+        "text": "绘制标语",
+        "iconPath": "images/maobi.png",
+        "selectedIconPath": "images/maobi.png"
+      },
+      {
+        "pagePath": "pages/showing/showing",
+        "text": "展示标语",
+        "iconPath": "images/zhanshi.png",
+        "selectedIconPath": "images/zhanshi.png"
+      },
+      {
+        "pagePath": "pages/frontsee/frontsee",
+        "text": "前景展望",
+        "iconPath": "images/reading.png",
+        "selectedIconPath": "images/reading.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#87ceeb",
+    "navigationBarTitleText": "抗疫英雄",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

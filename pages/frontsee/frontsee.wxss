@@ -1,0 +1,9 @@
+/* pages/frontsee/frontsee.wxss */
+.swiper{
+    width: 100%;
+    height: 200px;
+}
+.text{
+    font-size: 17px;
+    font-weight: bold;
+}

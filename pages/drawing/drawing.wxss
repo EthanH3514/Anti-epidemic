@@ -1,0 +1,17 @@
+/* pages/drawing/drawing.wxss */
+.colorArea{
+    width: 335px;
+    height: 50px;
+}
+canvas{
+    width: 100%;
+    height: 360px;
+    border: 1px solid springgreen;
+}
+.btn-true{
+    background-color: green;
+}
+.button_add{
+    background-color: #f2f2f2;
+    color: #07c160;
+  }

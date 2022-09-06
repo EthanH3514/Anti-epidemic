@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">核酸筛查</view>
+  <view class="btnRow">
+    <button bindtap="chooseLevel" data-level="primary" class="button_add">初级</button>
+    <button bindtap="chooseLevel" data-level="difficult" class="button_add">中级</button>
+    <button bindtap="chooseLevel" data-level="expert" class="button_add">高级</button>
+    <button bindtap="costom" class="button_add">自定义</button>
+    <button bindtap="back" class="button_add">返回开始界面</button>
+  </view>
+</view>
+<view class="add_help">
+  <button class="help" bindtap="help">帮助</button>
+</view>

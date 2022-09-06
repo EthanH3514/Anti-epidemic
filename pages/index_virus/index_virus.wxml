@@ -1,0 +1,8 @@
+<!--pages/index_virus/index_virus.wxml-->
+<view class="title">
+    你在想什么？选病毒还想赢？？
+</view>
+<image src="/images/question.webp" mode="aspectFit" bindtap="show"></image>
+<view class="title" hidden="{{flag}}">
+    别做梦了
+</view>

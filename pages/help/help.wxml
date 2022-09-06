@@ -1,0 +1,28 @@
+<!--pages/help/help.wxml-->
+<view>
+    <view class="title">帮助</view>
+    <text class="text_decoration">核酸筛查的游戏规则与扫雷相同。
+    </text>
+    <text class="text_decoration">
+        初级难度:</text>
+    <text>9×9个方格，共10个患者
+    </text>
+    <text class="text_decoration">
+        中级难度:</text><text>16×16个方格，共40个患者
+    </text>
+    <text class="text_decoration">
+        高级难度:</text><text>16×30个方格，共99个患者
+    </text>
+    <text class="text_decoration">
+        方格内的数字:</text><text>显示周围3×3范围内的患者数量
+    </text>
+    <text class="text_decoration">
+        单击方格:</text><text>翻开方格，如果方格内为患者则被感染，游戏结束
+    </text>
+    <text class="text_decoration">
+        在‘标记’状态下单击方格:</text><text>将方格隔离，同时消耗一个隔离次数，隔离次数与该难度下患者数量一致，隔离次数用尽则不能隔离新的方格。被隔离的方格无法翻开。将被隔离的方格标记则解除隔离。
+    </text>
+    <text class="text_decoration">
+        重置:</text><text>重新开始游戏
+    </text>
+</view>

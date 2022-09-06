@@ -1,0 +1,13 @@
+<!--pages/custom_/custom.wxml-->
+<view class="contain">
+    <view class="title">自定义大小</view>
+    <text>行数</text>
+    <slider data-nice="column" value="{{column}}" max="99" min="9" block-color="blue" show-value="true" bindchange="dataChange" backgroundColor="#BA55D3"></slider>
+    <text>列数</text>
+    <slider data-nice="row" value="{{row}}" max="99" min="9" block-color="green" show-value="true" bindchange="dataChange" backgroundColor="#ba55d3"></slider>
+    <text>雷数</text>
+    <slider data-nice="mine_number" value="{{mine_number}}" max="{{column*row-1}}" min="10" block-color="red" show-value="true" bindchange="dataChange" backgroundColor="#ba55d3"></slider>
+    <view class="add_help">
+        <button class="help" bindtap="confirm">确认</button>
+    </view>
+</view>

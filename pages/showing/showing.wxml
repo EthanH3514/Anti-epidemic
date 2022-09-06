@@ -1,0 +1,8 @@
+<!--pages/showing/showing.wxml-->
+<view class="container">
+    <view class="title">展示标语</view>
+    <view class="box">
+        <image src="{{imgPath}}"></image>
+        <button bindtap="openFile">打开文件</button>
+    </view>
+</view>
